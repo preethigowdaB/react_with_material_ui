@@ -56,7 +56,7 @@ import {
             />
           </AvatarGroup>
           <Typography variant="h6" fontWeight={100} mt={2} mb={2}>
-            Latest Photos
+            Trending Feeds
           </Typography>
           <ImageList cols={3} rowHeight={100} gap={5}>
             <ImageListItem>

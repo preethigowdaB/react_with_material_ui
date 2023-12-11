@@ -1,4 +1,4 @@
-import { Mail, Notifications, Pets } from "@mui/icons-material";
+import { Mail, Notifications, Instagram } from "@mui/icons-material";
 import {
   AppBar,
   Avatar,
@@ -48,9 +48,9 @@ const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          LAMA DEV
+          Instagram
         </Typography>
-        <Pets sx={{ display: { xs: "block", sm: "none" } }} />
+        <Instagram sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
           <InputBase placeholder="search..." />
         </Search>
